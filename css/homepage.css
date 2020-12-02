@@ -1,11 +1,26 @@
 header {
-    height: 800px;
-    background: url("../img/header.jpg") no-repeat center;
-    min-width: 100%;
-    min-height: 100%;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/header.jpg") no-repeat center;
+    /* min-width: 100%;
+    min-height: 100%; */
+    background-size: cover;
+    color: #FFFFFF;
 }
+
+/* 
+    linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)) 
+    --> dégradé uniforme de même couleur pour voiler l'image 
+        0deg car habituellement, dégradé de gauche à droite 
+*/
 
 nav {
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 0.5px solid #FFFFFF;
 }
 
+nav h2 {
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 100px;
+}
