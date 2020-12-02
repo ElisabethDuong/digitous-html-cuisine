@@ -3,3 +3,15 @@
     color: #000000 
 */ 
 
+@font-face {
+    font-family: 'Courgette-Regular';
+    src: url('../fonts/Courgette-Regular.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oswald-VariableFont_wght';
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+    font-weight: normal;
+}
+

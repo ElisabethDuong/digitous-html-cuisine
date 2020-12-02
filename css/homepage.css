@@ -1,0 +1,11 @@
+header {
+    height: 800px;
+    background: url("../img/header.jpg") no-repeat center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+nav {
+    border-bottom: 1px solid #FFFFFF;
+}
+
