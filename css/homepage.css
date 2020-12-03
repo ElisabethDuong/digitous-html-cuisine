@@ -24,3 +24,9 @@ nav h2 {
 .logo {
     width: 100px;
 }
+
+img {
+    width: 100%;
+}
+
+/* les icônes se comportent comme du texte. pour modifier leurs tailles, on utilise font-size */
