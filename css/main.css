@@ -15,3 +15,11 @@
     font-weight: normal;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Courgette-Regular', sans-serif;
+}
+
+body {
+    font-family: 'Oswald-VariableFont_wght', sans-serif;
+}
+
