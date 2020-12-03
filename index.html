@@ -4,26 +4,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Oswald:200,400" rel="stylesheet" />
   <link rel="stylesheet" href="./css/bootstrap.css" />
   <link rel="stylesheet" href="./css/homepage.css" />
   <link rel="stylesheet" href="./css/main.css" />
+  <!-- script fontawesome -->
   <title>Blog Cui'zine</title>
 </head>
 
 <body>
-  <header>
+  <div class="background-header-image">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <h2>Cui'zine</h2>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil</a>
+            <a class="nav-link" href="./index.html">Accueil <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Equipe</a>
@@ -36,16 +38,18 @@
           </li>
     </nav>
 
-    <div class="container-fluid">
+    <!-- /nav -->
+
+    <header class="container-fluid">
       <div class="row">
-        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-12">
           <img class="logo" src="./img/logo_square_white.png" alt="Image de couverts" />
           <h1>Cui'zine</h1>
           <h2>Le mag cuisine</h2>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
+  </div>
 
   <div class="container-fluid">
     <div class="row justify-content-center">
@@ -53,10 +57,10 @@
     </div>
 
     <div class="row">
-      <div class="col-12">
-        <img src="./img/articles/suzette/suzette-small.jpg" alt="Pancakes au chocolat" /> 
+      <div class="col-12 col-md-4">
+        <img src="./img/articles/suzette/suzette-small.jpg" alt="Pancakes au chocolat" />
       </div>
-      <div class="col-12">
+      <div class="col-12 col-md-8">
         <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
         <p>
           La franchise "Chez Suzette" qui fait un carton chez les Bretons ouvre son premier restaurant à Paris dans
@@ -67,10 +71,10 @@
     </div>
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 col-md-4">
         <img src="./img/articles/metro/metro-small.jpg" alt="Dessert aux framboises" />
       </div>
-      <div class="col-12">
+      <div class="col-12 col-md-8">
         <h3>Le Métro dessert</h3>
         <p>
           Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur
@@ -81,10 +85,10 @@
     </div>
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 col-md-4">
         <img src="./img/articles/vitaly/vitaly-small.jpg" alt="Farfalles au pesto et tomates" />
       </div>
-      <div class="col-12">
+      <div class="col-12 col-md-8">
         <h3>Vitaly, le végan italien</h3>
         <p>
           Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à
@@ -99,7 +103,7 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-dark text-white">
+    <div id="footer" class="container-fluid text-white">
       <div class="row">
         <div class="col-12">
           <h3>Catégories</h3>
@@ -114,8 +118,8 @@
           <h3>Archives</h3>
           <ul>
             <li><a href="">2019</a></li>
-            <li><a href=""></a>2018</li>
-            <li><a href=""></a>2017</li>
+            <li><a href="">2018</a></li>
+            <li><a href="">2017</a></li>
           </ul>
         </div>
 
@@ -125,16 +129,20 @@
             <div class="form-group">
               <input type="email" class="form-control" placeholder="Email">
             </div>
-            <button id="" type="" class="" >S'inscrire</button>
+            <button type="submit" class="btn btn-primary">S'inscrire</button>
           </form>
         </div>
 
         <div class="col-12">
           <h3>Partager</h3>
-          <li><a href=""> <!-- icônes réseaux sociaux --> </a></li>
-          <li><a href=""> <!-- icônes réseaux sociaux --> </a></li>
-          <li><a href=""> <!-- icônes réseaux sociaux --> </a></li>
-          <li><a href=""> <!-- icônes réseaux sociaux --> </a></li>
+          <li><a href="">
+              <!-- icônes réseaux sociaux --> </a></li>
+          <li><a href="">
+              <!-- icônes réseaux sociaux --> </a></li>
+          <li><a href="">
+              <!-- icônes réseaux sociaux --> </a></li>
+          <li><a href="">
+              <!-- icônes réseaux sociaux --> </a></li>
         </div>
       </div>
     </div>

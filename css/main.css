@@ -1,25 +1,68 @@
-/* 
-    color: #FFFFFF
-    color: #000000 
-*/ 
-
-@font-face {
-    font-family: 'Courgette-Regular';
-    src: url('../fonts/Courgette-Regular.ttf');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Oswald-VariableFont_wght';
-    src: url('../fonts/Oswald-VariableFont_wght.ttf');
-    font-weight: normal;
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Courgette-Regular', sans-serif;
+    font-family: 'Courgette', sans-serif;
 }
 
-body {
-    font-family: 'Oswald-VariableFont_wght', sans-serif;
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid white;
 }
 
+.navbar-brand {
+    font-family: 'Courgette', sans-serif;
+    font-size: 32px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: white;
+}
+
+header .col-12 {
+    padding: 100px;
+}
+
+footer {
+    background-color: black;
+    padding: 32px;
+}
+  
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+  
+footer a:hover {
+    color: white;
+}
+  
+footer ul {
+    list-style: none;
+    padding: 4px;
+}
+
+#subscribe {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+} 
+  
+#subscribe:hover {
+    background-color: gray;
+} 
+  
+.social-icons li {
+    margin: 0px 4px;
+}
+  
+.social-icons i {
+    padding: 8px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+}
