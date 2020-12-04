@@ -1,20 +1,21 @@
 body {
-    font-family: Oswald, sans-serif;
+    font-family: Oswald, Helvetica, sans-serif;
     font-weight: 200;
 }
 
 h1, h2, h3, h4, h5, h6, label {
-    font-family: Courgette, sans-serif;
+    font-family: Courgette, Georgia, sans-serif;
 }
 
 .navbar {
-    background: rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid white;
+    background: rgba(0, 0, 0, .8);
+    /* z-index: 1; */
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .navbar-brand {
-    font-family: 'Courgette', sans-serif;
-    font-size: 32px;
+    font-family: Courgette, Georgia, sans-serif;
+    font-size: 1em;
 }
 
 .background-header-image {
@@ -30,17 +31,26 @@ h1, h2, h3, h4, h5, h6, label {
 */
 
 header {
-    background: rgba(0, 0, 0, 0.8);
+    height: 500px;
     text-align: center;
-    color: white;
+    margin-bottom: 32px;
 }
 
 header img {
-    width: 150px;
+    width: 75px;
+}
+
+header .container-fluid {
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+}
+
+header h1, header h2 {
+    color: white;
 }
 
 header .col-12 {
-    padding: 100px;
+    padding: 128px;
 }
 
 footer {
