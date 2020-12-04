@@ -1,10 +1,10 @@
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 200;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Courgette', sans-serif;
+h1, h2, h3, h4, h5, h6, label {
+    font-family: Courgette, sans-serif;
 }
 
 .navbar {
@@ -17,10 +17,26 @@ h1, h2, h3, h4 {
     font-size: 32px;
 }
 
+.background-header-image {
+    background: url(../img/header.jpg) center center;
+}
+
+/* 
+    linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)) 
+    --> dégradé uniforme de même couleur pour voiler l'image 
+        0deg car habituellement, dégradé de gauche à droite 
+    OU utiliser background: rgba(0, 0, 0, 0.8), préciser la couleur du voile
+     et jouer sur le a (alpha) qui correspond à l'opacity
+*/
+
 header {
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
     color: white;
+}
+
+header img {
+    width: 150px;
 }
 
 header .col-12 {
@@ -29,16 +45,13 @@ header .col-12 {
 
 footer {
     background-color: black;
+    color: white;
     padding: 32px;
 }
   
 footer a {
     color: white;
     text-decoration: underline;
-}
-  
-footer a:hover {
-    color: white;
 }
   
 footer ul {
@@ -66,3 +79,6 @@ footer ul {
     color: black;
     font-size: 22px;
 }
+
+/* les icônes se comportent comme du texte. pour modifier leurs tailles, on utilise font-size */
+

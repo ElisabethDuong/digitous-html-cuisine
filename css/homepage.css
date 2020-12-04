@@ -1,19 +1,35 @@
-.background-header-image {
-    background: url(../img/header.jpg) center center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
-    linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)) 
-    --> dégradé uniforme de même couleur pour voiler l'image 
-        0deg car habituellement, dégradé de gauche à droite 
+    dégradé de l'icône instagram en hover
+    #desktop-social-icons .fa-instagram:hover {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 */
-
-header img {
-    width: 150px;
-}
-
-#footer {
-    background-color: black;
-}
-
-/* les icônes se comportent comme du texte. pour modifier leurs tailles, on utilise font-size */
